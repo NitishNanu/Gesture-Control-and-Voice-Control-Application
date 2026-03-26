@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*~
+*.swp
+*.egg-info/
+*.eggs/
+dist/
+build/
+.eggs/
+.python-version
+venv/
+.env
+.venv/
+ENV/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Media/large model folders (typically not in git)
+voice_module/vosk-model-small-en-us-0.15/
+voice_module/vosk-model-small-hi-0.22/
